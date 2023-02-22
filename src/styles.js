@@ -8,6 +8,14 @@ export const About = styled(motion.div)`
   align-items: center;
   padding: 5rem;
   color: white;
+  @media (max-width: 1000px) {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    & > div {
+      margin: 5rem 0rem;
+    }
+  }
 `;
 
 export const Description = styled.div`

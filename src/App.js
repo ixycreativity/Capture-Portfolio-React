@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
+
       <Nav />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
